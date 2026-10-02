@@ -28,7 +28,7 @@ var Cases []Case = []Case{
 		name:       "Case 3",
 		input:      map[string][]string{"Authorizat": []string{"ApiKey asfkj1kjr133u1h13ohfe1"}},
 		expected:   "",
-		shouldFail: false,
+		shouldFail: true,
 	},
 }
 
